@@ -36,7 +36,7 @@ console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-for (let i=5; i>-1, i--) {
+for (let i=5; i>-1; i--) {
   console.log(i);
 }
 
@@ -71,7 +71,7 @@ while (num < 6) {
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
-let num = 10;
+num = 10;
 while (num > 4) {
   console.log(num);
   num--
